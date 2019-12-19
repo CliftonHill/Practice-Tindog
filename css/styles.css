@@ -1,0 +1,178 @@
+/* Still needs code refactoring to simplify. In particular for: padding, */
+body {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+button, body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: 'Girassol', cursive;
+}
+
+h2 {
+  font-size: 3.0rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.4;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+/* Navingation / Title */
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  border: 2px solid white;
+  border-radius: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.nav-item {
+  padding: 0 1.3rem;
+}
+
+#title {
+  background-color: #FF4C68;
+  text-align: left;
+}
+
+.download-button {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.cellphone-dog {
+  width: 85%;
+  transform: rotate(20deg);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  position: absolute;
+}
+
+/* Features  */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#features h3 {
+  font-weight: bold;
+}
+
+#features .row .col-md-4 {
+  padding: 2rem 0;
+}
+
+.row .col-md-4 p {
+  color: #8f8f8f;
+  padding: 0 20%;
+}
+
+.row .col-md-4 .fa-3x {
+  color: #ef8172;
+}
+
+.row .col-md-4 .fa-3x :hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.carousel-item {
+  padding: 5% 10% 1% 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+
+#press img {
+  width: 15%;
+  margin: 2rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 3%;
+  background-color: white;
+}
+
+.pricing-card {
+  height: 100%;
+}
+
+.pricing-card-outer {
+  padding: 1%;
+}
+
+/* CTA */
+#cta {
+  background-color: #FF4C68;
+  color: white;
+  padding: 0 3rem 2rem;
+  font-family: 'Girassol', cursive;
+}
+
+.cta h3 {
+  padding-top: 3rem;
+  width: 80%;
+  font-size: 3.0rem;
+  line-height: 1.2;
+  margin: 0 auto 0;
+}
+
+.cta .btn {
+  margin: 1rem auto 3rem;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.social-icon {
+  margin: 0.5rem;
+}
+
+/* Media Query */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .cellphone-dog {
+    transform: rotate(0deg);
+    position: static;
+    width: 90%;
+  }
+}
